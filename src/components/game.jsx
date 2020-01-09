@@ -79,7 +79,9 @@ class Game extends Component {
             />
           </div>
           <div className="game-info">
-            <div className="text">{status}</div>
+            <h2>
+              <div className="badge badge-secondary badge-lg">{status}</div>
+            </h2>
             <ol>{moves}</ol>
           </div>
         </div>
